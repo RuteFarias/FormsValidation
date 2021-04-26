@@ -1,0 +1,230 @@
+* {
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+main {
+    width: 100%;
+    margin: 10px 0;
+}
+body {
+     margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+   
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    height: 100%;
+}
+input{
+    box-sizing: border-box;
+    outline: none;
+
+}
+div {
+    display: block;
+}
+
+.challenge-form{
+    position: relative;
+    padding: 1rem;
+    margin: 1rem 10px 0;
+    border: solid #f7f7f9;
+    border-width: .2rem 0 0;
+}
+
+#form {
+    width: 700px;
+    min-height: 600px;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 30px;
+}
+.column{
+    justify-content:space-between;
+    align-items: center;
+    display: flex;     
+    margin-right: -5px;
+    margin-left: -5px;
+}
+.input-group {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 1rem;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+   
+}
+
+.input-group input:focus{
+    border-color: #007bff;
+    box-shadow: 0 0 0.7em #a3bfdf;
+
+}
+
+.input-group label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  cursor: default;
+  font-style: vertical-align, inherit;
+}
+
+.input-group-user{
+    position: relative;
+    display: flex;
+    width: 100%;
+    
+}
+.input-group-prepend{
+    display: flex;
+    
+}
+
+.input-group-text {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+}
+
+.form-control-username{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.form-control-username{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0;
+}
+.form-check-input {
+    position: absolute;
+    margin-top: .3rem;
+    margin-left: -1.25rem;
+}
+
+.valid-feedback{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #28a745;
+    
+}
+.invalid-feedback{
+    width: 100%;
+    margin-top: .25rem;
+    font-size: 80%;
+    color: #dc3545;
+}
+
+/**
+input:invalid {
+    border: 1px solid red;
+  }
+  
+input:valid {
+    border: 1px solid rgb(11, 126, 45);
+}
+**/
+
+.form-check {
+    position: relative;
+    display: block;
+    padding-left: 1.25rem;
+}
+
+.form-check-label {
+    margin-bottom: 0;
+    
+}
+.label{
+    display: inline-block;
+    cursor: default;
+}
+.btn-primary:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.btn-primary{
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
